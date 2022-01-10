@@ -20,7 +20,7 @@ jobs:
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
          image: ramb0/gtm
-         dockerfile: dockerfile
+         dockerfile: Dockerfile
          registry: docker.io
          username: ${{ secrets.DOCKER_USERNAME }}
          password: ${{ secrets.DOCKER_PASSWORD }}
